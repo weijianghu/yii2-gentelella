@@ -1,11 +1,5 @@
 <?php
-/**
- * @copyright Copyright (c) 2015 Yiister
- * @license https://github.com/yiister/yii2-gentelella/blob/master/LICENSE
- * @link http://gentelella.yiister.ru
- */
-
-namespace yiister\gentelella\widgets\grid;
+namespace weijianghu\gentelella\widgets\grid;
 
 use yii\helpers\Html;
 
@@ -14,7 +8,7 @@ class GridView extends \yii\grid\GridView
     /**
      * @inheritdoc
      */
-    public $dataColumnClass = 'yiister\gentelella\widgets\grid\DataColumn';
+    public $dataColumnClass = 'weijianghu\gentelella\widgets\grid\DataColumn';
 
     /**
      * @inheritdoc

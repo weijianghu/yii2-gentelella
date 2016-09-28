@@ -7,7 +7,7 @@
 
 use yii\helpers\Html;
 
-$bundle = yiister\gentelella\assets\Asset::register($this);
+$bundle = weijianghu\gentelella\assets\Asset::register($this);
 
 ?>
 <?php $this->beginPage(); ?>
@@ -61,7 +61,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                     <div class="menu_section">
                         <h3>General</h3>
                         <?=
-                        \yiister\gentelella\widgets\Menu::widget(
+                        \weijianghu\gentelella\widgets\Menu::widget(
                             [
                                 "items" => [
                                     ["label" => "Home", "url" => "/", "icon" => "home"],
@@ -293,7 +293,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
         <footer>
             <div class="pull-right">
                 Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com" rel="nofollow" target="_blank">Colorlib</a><br />
-                Extension for Yii framework 2 by <a href="http://yiister.ru" rel="nofollow" target="_blank">Yiister</a>
+                Extension for Yii framework 2 by <a href="http://weijianghu.ru" rel="nofollow" target="_blank">weijianghu</a>
             </div>
             <div class="clearfix"></div>
         </footer>

@@ -1,11 +1,5 @@
 <?php
-/**
- * @copyright Copyright (c) 2015 Yiister
- * @license https://github.com/yiister/yii2-gentelella/blob/master/LICENSE
- * @link http://gentelella.yiister.ru
- */
-
-namespace yiister\gentelella\widgets\grid;
+namespace weijianghu\gentelella\widgets\grid;
 
 class GridViewAsset extends \yii\web\AssetBundle
 {
@@ -15,6 +9,6 @@ class GridViewAsset extends \yii\web\AssetBundle
     ];
     public $js = [];
     public $depends = [
-        'yiister\gentelella\assets\Asset',
+        'weijianghu\gentelella\assets\Asset',
     ];
 }
